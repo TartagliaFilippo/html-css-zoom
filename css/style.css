@@ -66,6 +66,12 @@ header + * {
   margin: 0 auto;
 }
 
+.viewport {
+  height: calc(100vh - 50px - 80px);
+  width: calc(100vw - 10%);
+  overflow: auto;
+}
+
 /* FOOTER */
 footer {
   background-color: #8297ad;
