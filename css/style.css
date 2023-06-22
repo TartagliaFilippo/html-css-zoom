@@ -36,12 +36,6 @@ body {
   flex-wrap: wrap;
 }
 
-.btn {
-  padding: 3px 4px;
-  border-radius: 3px;
-  margin: 5px 3px;
-}
-
 /* STRUCTURE */
 
 /* HEADER */
@@ -55,8 +49,12 @@ header {
 
 header span {
   background-color: rgb(97, 96, 96);
+  padding: 3px 4px;
+  border-radius: 3px;
+  margin: 5px 3px;
 }
 
+/* PADDING HEADER */
 header + * {
   padding-top: 50px;
 }
