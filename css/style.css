@@ -60,9 +60,10 @@ header + * {
   padding-top: 50px;
 }
 
-/* PADDING FOOTER */
-main + * {
-  padding-bottom: 80px;
+/* MAIN */
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* FOOTER */
