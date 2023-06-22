@@ -5,6 +5,58 @@
   padding: 0;
 }
 
+body {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
 /* UTILS */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 3px 4px;
+  border-radius: 3px;
+  margin: 5px 3px;
+}
 
 /* STRUCTURE */
+
+/* HEADER */
+header {
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  line-height: 35px;
+  position: fixed;
+}
+
+header span {
+  background-color: rgb(97, 96, 96);
+}
+
+header + * {
+  padding-top: 50px;
+}
