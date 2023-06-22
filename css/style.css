@@ -6,6 +6,7 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   background-color: black;
   color: white;
@@ -48,7 +49,7 @@ header {
 }
 
 header span {
-  background-color: rgb(97, 96, 96);
+  background-color: #5c5c5c;
   padding: 3px 4px;
   border-radius: 3px;
   margin: 5px 3px;
@@ -57,4 +58,47 @@ header span {
 /* PADDING HEADER */
 header + * {
   padding-top: 50px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #8297ad;
+  height: 80px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.section {
+  align-items: center;
+}
+
+.section > div {
+  margin: 12px 12px;
+}
+
+.icon {
+  font-size: 30px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.section .arrow {
+  margin-left: 0;
+}
+
+/* SECOND SECTION */
+#share {
+  color: rgb(38, 218, 38);
+}
+
+/* THIRD SECTION */
+footer .section:last-child {
+  background-color: grey;
+  color: red;
 }
