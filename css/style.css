@@ -60,8 +60,12 @@ header + * {
   padding-top: 50px;
 }
 
-/* FOOTER */
+/* PADDING FOOTER */
+main + * {
+  padding-bottom: 80px;
+}
 
+/* FOOTER */
 footer {
   background-color: #8297ad;
   height: 80px;
