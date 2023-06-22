@@ -72,6 +72,14 @@ header + * {
   overflow: auto;
 }
 
+.image {
+  height: 140px;
+  width: 160px;
+  background-image: url(https://picsum.photos/200/300);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
 /* FOOTER */
 footer {
   background-color: #8297ad;
