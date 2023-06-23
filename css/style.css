@@ -78,8 +78,8 @@ header + * {
 }
 
 .image {
-  height: calc(100vh / 6);
-  width: calc(100vw / 8);
+  height: 110px;
+  width: 192px;
   margin-bottom: 10px;
 }
 
